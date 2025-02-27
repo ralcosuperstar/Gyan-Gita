@@ -1,0 +1,500 @@
+{
+    "moods": [
+      {
+        "name": "Anger",
+        "description": "When feeling angry or resentful",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 62,
+            "theme": "Control of anger"
+          },
+          {
+            "chapter": 2,
+            "text": 63,
+            "theme": "Effects of anger"
+          },
+          {
+            "chapter": 5,
+            "text": 23,
+            "theme": "Withstanding impulses"
+          },
+          {
+            "chapter": 16,
+            "text": 1,
+            "theme": "Divine qualities"
+          },
+          {
+            "chapter": 16,
+            "text": 21,
+            "theme": "Triple gates of hell"
+          }
+        ]
+      },
+      {
+        "name": "Seeking Peace",
+        "description": "When looking for inner peace and calm",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 71,
+            "theme": "Abandoning desires"
+          },
+          {
+            "chapter": 5,
+            "text": 29,
+            "theme": "Peace through meditation"
+          },
+          {
+            "chapter": 6,
+            "text": 27,
+            "theme": "Supreme happiness"
+          },
+          {
+            "chapter": 12,
+            "text": 12,
+            "theme": "Meditation over knowledge"
+          },
+          {
+            "chapter": 18,
+            "text": 62,
+            "theme": "Complete surrender"
+          }
+        ]
+      },
+      {
+        "name": "Depression",
+        "description": "When feeling depressed or hopeless",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 14,
+            "theme": "Temporary nature of feelings"
+          },
+          {
+            "chapter": 2,
+            "text": 22,
+            "theme": "Eternal nature of soul"
+          },
+          {
+            "chapter": 6,
+            "text": 5,
+            "theme": "Self-elevation"
+          },
+          {
+            "chapter": 18,
+            "text": 58,
+            "theme": "Divine consciousness"
+          },
+          {
+            "chapter": 9,
+            "text": 22,
+            "theme": "Divine protection"
+          }
+        ]
+      },
+      {
+        "name": "Confusion",
+        "description": "When feeling uncertain or confused",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 7,
+            "theme": "Seeking guidance"
+          },
+          {
+            "chapter": 4,
+            "text": 42,
+            "theme": "Dispelling doubts"
+          },
+          {
+            "chapter": 18,
+            "text": 63,
+            "theme": "Final instruction"
+          },
+          {
+            "chapter": 4,
+            "text": 11,
+            "theme": "Reciprocal faith"
+          },
+          {
+            "chapter": 4,
+            "text": 18,
+            "theme": "Seeing inaction in action"
+          }
+        ]
+      },
+      {
+        "name": "Fear",
+        "description": "When experiencing fear or anxiety",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 56,
+            "theme": "Steady mind amidst suffering"
+          },
+          {
+            "chapter": 6,
+            "text": 14,
+            "theme": "Fearlessness through discipline"
+          },
+          {
+            "chapter": 11,
+            "text": 55,
+            "theme": "Freedom from fear"
+          },
+          {
+            "chapter": 16,
+            "text": 1,
+            "theme": "Fearlessness as divine quality"
+          },
+          {
+            "chapter": 18,
+            "text": 30,
+            "theme": "Understanding right action"
+          }
+        ]
+      },
+      {
+        "name": "Greed",
+        "description": "When dealing with materialistic desires",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 62,
+            "theme": "Attachment cycle"
+          },
+          {
+            "chapter": 2,
+            "text": 71,
+            "theme": "Freedom from desire"
+          },
+          {
+            "chapter": 14,
+            "text": 12,
+            "theme": "Signs of passion"
+          },
+          {
+            "chapter": 16,
+            "text": 21,
+            "theme": "Triple gates of hell"
+          },
+          {
+            "chapter": 17,
+            "text": 5,
+            "theme": "Austerity in ignorance"
+          }
+        ]
+      },
+      {
+        "name": "Demotivated",
+        "description": "When lacking motivation or feeling low energy",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 47,
+            "theme": "Action without attachment"
+          },
+          {
+            "chapter": 2,
+            "text": 48,
+            "theme": "Steadfastness in yoga"
+          },
+          {
+            "chapter": 3,
+            "text": 35,
+            "theme": "One's own duty"
+          },
+          {
+            "chapter": 6,
+            "text": 5,
+            "theme": "Self-upliftment"
+          },
+          {
+            "chapter": 18,
+            "text": 48,
+            "theme": "Not abandoning duty"
+          }
+        ]
+      },
+      {
+        "name": "Temptation",
+        "description": "When facing temptations or distractions",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 60,
+            "theme": "Turbulent senses"
+          },
+          {
+            "chapter": 2,
+            "text": 67,
+            "theme": "Mind following senses"
+          },
+          {
+            "chapter": 3,
+            "text": 37,
+            "theme": "Desire and anger"
+          },
+          {
+            "chapter": 5,
+            "text": 22,
+            "theme": "Pleasures from sense contact"
+          },
+          {
+            "chapter": 6,
+            "text": 24,
+            "theme": "Abandoning desires"
+          }
+        ]
+      },
+      {
+        "name": "Forgetfulness",
+        "description": "When forgetting one's true purpose or nature",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 13,
+            "theme": "Eternal soul"
+          },
+          {
+            "chapter": 2,
+            "text": 22,
+            "theme": "Changing bodies"
+          },
+          {
+            "chapter": 7,
+            "text": 25,
+            "theme": "Divine veil"
+          },
+          {
+            "chapter": 9,
+            "text": 11,
+            "theme": "Divine incarnation"
+          },
+          {
+            "chapter": 15,
+            "text": 15,
+            "theme": "Memory and knowledge"
+          }
+        ]
+      },
+      {
+        "name": "Losing Hope",
+        "description": "When feeling hopeless or giving up",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 3,
+            "theme": "Overcoming weakness"
+          },
+          {
+            "chapter": 6,
+            "text": 23,
+            "theme": "Perseverance in yoga"
+          },
+          {
+            "chapter": 9,
+            "text": 22,
+            "theme": "Divine care"
+          },
+          {
+            "chapter": 9,
+            "text": 30,
+            "theme": "Even sinners can be liberated"
+          },
+          {
+            "chapter": 18,
+            "text": 78,
+            "theme": "Victory through divine guidance"
+          }
+        ]
+      },
+      {
+        "name": "Lust",
+        "description": "When struggling with sensual desires",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 62,
+            "theme": "Contemplation leads to attachment"
+          },
+          {
+            "chapter": 3,
+            "text": 37,
+            "theme": "Lust as the enemy"
+          },
+          {
+            "chapter": 3,
+            "text": 41,
+            "theme": "Controlling senses"
+          },
+          {
+            "chapter": 5,
+            "text": 21,
+            "theme": "Unattached to external pleasures"
+          },
+          {
+            "chapter": 16,
+            "text": 21,
+            "theme": "Triple gates of hell"
+          }
+        ]
+      },
+      {
+        "name": "Uncontrolled Mind",
+        "description": "When struggling with mental discipline",
+        "verses": [
+          {
+            "chapter": 6,
+            "text": 26,
+            "theme": "Restless mind"
+          },
+          {
+            "chapter": 6,
+            "text": 34,
+            "theme": "Mind's restlessness"
+          },
+          {
+            "chapter": 6,
+            "text": 35,
+            "theme": "Practice and detachment"
+          },
+          {
+            "chapter": 6,
+            "text": 36,
+            "theme": "Control through discipline"
+          },
+          {
+            "chapter": 17,
+            "text": 16,
+            "theme": "Mental serenity"
+          }
+        ]
+      },
+      {
+        "name": "Dealing with Envy",
+        "description": "When feeling jealous of others",
+        "verses": [
+          {
+            "chapter": 3,
+            "text": 37,
+            "theme": "Anger from desire"
+          },
+          {
+            "chapter": 12,
+            "text": 13,
+            "theme": "Non-enviousness"
+          },
+          {
+            "chapter": 12,
+            "text": 15,
+            "theme": "Freedom from expectation"
+          },
+          {
+            "chapter": 16,
+            "text": 1,
+            "theme": "Divine qualities"
+          },
+          {
+            "chapter": 16,
+            "text": 19,
+            "theme": "Fate of the envious"
+          }
+        ]
+      },
+      {
+        "name": "Discriminated",
+        "description": "When facing injustice or discrimination",
+        "verses": [
+          {
+            "chapter": 5,
+            "text": 18,
+            "theme": "Seeing everyone equally"
+          },
+          {
+            "chapter": 6,
+            "text": 32,
+            "theme": "Self in all beings"
+          },
+          {
+            "chapter": 9,
+            "text": 29,
+            "theme": "Equal to all"
+          },
+          {
+            "chapter": 13,
+            "text": 28,
+            "theme": "Seeing the same Lord"
+          },
+          {
+            "chapter": 14,
+            "text": 24,
+            "theme": "Balanced in all situations"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Forgiveness",
+        "description": "When working on forgiveness",
+        "verses": [
+          {
+            "chapter": 16,
+            "text": 1,
+            "theme": "Compassion as divine quality"
+          },
+          {
+            "chapter": 16,
+            "text": 2,
+            "theme": "Charity and kindness"
+          },
+          {
+            "chapter": 16,
+            "text": 3,
+            "theme": "Absence of anger"
+          },
+          {
+            "chapter": 12,
+            "text": 13,
+            "theme": "Being friendly to all"
+          },
+          {
+            "chapter": 12,
+            "text": 18,
+            "theme": "Equal to friend and foe"
+          }
+        ]
+      },
+      {
+        "name": "Seeking Purpose",
+        "description": "When looking for life's meaning",
+        "verses": [
+          {
+            "chapter": 2,
+            "text": 47,
+            "theme": "Right to action"
+          },
+          {
+            "chapter": 3,
+            "text": 9,
+            "theme": "Work as sacrifice"
+          },
+          {
+            "chapter": 3,
+            "text": 35,
+            "theme": "One's own duty"
+          },
+          {
+            "chapter": 18,
+            "text": 46,
+            "theme": "Perfection through duty"
+          },
+          {
+            "chapter": 11,
+            "text": 55,
+            "theme": "Working for the Divine"
+          }
+        ]
+      }
+    ]
+  }

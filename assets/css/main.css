@@ -1,0 +1,158 @@
+/**
+ * GyanGita Custom CSS
+ * Additional styles beyond Tailwind CSS
+ */
+
+/* Sanskrit Font */
+@font-face {
+    font-family: 'Sanskrit Text';
+    src: url('/assets/fonts/Sanskrit2003.woff2') format('woff2'),
+         url('/assets/fonts/Sanskrit2003.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-sanskrit {
+    font-family: 'Sanskrit Text', serif;
+    line-height: 1.6;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Animations */
+@keyframes gentle-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.animate-gentle-pulse {
+    animation: gentle-pulse 3s infinite ease-in-out;
+}
+
+/* Focus Style Improvements for Accessibility */
+:focus {
+    outline: 2px solid rgba(249, 115, 22, 0.5);
+    outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF7F3F;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e56b2d;
+}
+
+/* Verse Card Enhancements */
+.verse-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.verse-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Practice Calendar Day States */
+.practice-day-none {
+    background-color: #E5E7EB;
+    color: #4B5563;
+}
+
+.practice-day-light {
+    background-color: #FFEDD5;
+    color: #9A3412;
+}
+
+.practice-day-medium {
+    background-color: #FED7AA;
+    color: #9A3412;
+}
+
+.practice-day-intense {
+    background-color: #FB923C;
+    color: #FFFFFF;
+}
+
+/* Audio Player Styling */
+audio {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* Mood Selection Enhancement */
+.mood-card {
+    transition: all 0.3s ease;
+}
+
+.mood-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Mobile Menu Transition */
+#mobile-menu {
+    transition: height 0.3s ease;
+    overflow: hidden;
+}
+
+/* Print Styles */
+@media print {
+    header, footer, nav, .hide-on-print {
+        display: none !important;
+    }
+
+    body, .print-content {
+        background: white !important;
+        color: black !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .verse-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        border: 1px solid #ddd !important;
+        box-shadow: none !important;
+    }
+}
+
+/* RTL Support for languages like Sanskrit display */
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Dark Mode Adjustments for Future Implementation */
+@media (prefers-color-scheme: dark) {
+    .future-dark-mode {
+        /* Will be implemented in future versions */
+    }
+}
+
+/* Accessibility Adjustments */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}

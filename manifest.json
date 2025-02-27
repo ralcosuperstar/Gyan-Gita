@@ -1,0 +1,111 @@
+{
+    "name": "GyanGita - Divine Wisdom from Bhagavad Gita",
+    "short_name": "GyanGita",
+    "description": "Find personalized guidance from the Bhagavad Gita based on your emotional state",
+    "start_url": "/index.php",
+    "display": "standalone",
+    "background_color": "#FFF7ED",
+    "theme_color": "#FF7F3F",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/assets/images/app-icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/images/app-icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/images/screenshots/mood-selection.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg",
+        "platform": "wide",
+        "label": "Select your emotional state"
+      },
+      {
+        "src": "/assets/images/screenshots/verse-display.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg",
+        "platform": "wide",
+        "label": "Explore Bhagavad Gita verses"
+      },
+      {
+        "src": "/assets/images/screenshots/practice.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg",
+        "platform": "wide",
+        "label": "Practice meditation and reflection"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Daily Verse",
+        "short_name": "Daily",
+        "description": "View today's recommended verse",
+        "url": "/pages/daily-verse.php",
+        "icons": [{ "src": "/assets/images/app-icons/daily-192x192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Browse Chapters",
+        "short_name": "Browse",
+        "description": "Browse all Bhagavad Gita chapters",
+        "url": "/pages/browse.php",
+        "icons": [{ "src": "/assets/images/app-icons/browse-192x192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Practice",
+        "short_name": "Practice",
+        "description": "Start a new practice session",
+        "url": "/pages/practice.php",
+        "icons": [{ "src": "/assets/images/app-icons/practice-192x192.png", "sizes": "192x192" }]
+      }
+    ],
+    "categories": ["spirituality", "education", "lifestyle"],
+    "lang": "en",
+    "dir": "ltr",
+    "related_applications": [],
+    "prefer_related_applications": false
+  }

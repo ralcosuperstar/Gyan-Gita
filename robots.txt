@@ -1,0 +1,38 @@
+# Robots.txt for GyanGita.com
+
+User-agent: *
+Allow: /
+Allow: /index.php
+Allow: /pages/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/general/
+Allow: /assets/images/screenshots/
+Allow: /assets/images/app-icons/
+Allow: /sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /user_data/
+Disallow: /cache/
+
+# Disallow sensitive or duplicate content
+Disallow: /*?*chapter=
+Disallow: /*?*verse=
+Disallow: /*?*mood=
+Disallow: /*&*
+
+# Allow key files
+Allow: /manifest.json
+
+# Allow specific API endpoints
+Allow: /api/get-mood-verses.php
+Allow: /api/get-verse.php
+Disallow: /api/
+
+# Crawl delay for intensive crawlers
+Crawl-delay: 10
+
+# Sitemaps
+Sitemap: https://gyangita.com/sitemap.xml
